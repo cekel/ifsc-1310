@@ -1,6 +1,114 @@
 .primary{
-    background-image:url("../../assets/img/Dragon-Logo.png");
+    background-image:url("../../assets/img/dragon-in-space.jpg");
     background-repeat:no-repeat;
     background-size:100% 100%;
-    color:red;
+    color:#000099;
+    text-align:center;
+}
+.primary li{
+    list-style-type: none;
+    color:black;
+}
+.primary a:link, .primary a:visited{
+    color:black;
+}
+.primary img{
+  display: block;
+  margin-left: auto;
+  padding-top:50px;
+  border-radius:10px;
+  margin-right: auto;
+
+}
+body{
+    font-family:sans-serif;
+}
+#articles{
+display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  border-bottom:3px solid #c0c0c0;
+  border-top:3px solid #c0c0c0;
+  padding-bottom:2.6rem;
+  background-color:gray;
+ 
+}
+#articles.post{
+  width:100%;
+  box-shadow:0 4px 8px rgba(0,0,0,.4);
+  transition:.5s;
+  border-radius:10px;
+  font-size:.9rem;
+
+}
+#articles .post figure{
+  margin:1;
+}
+#articles article img{
+  border-radius:4px;
+    margin:auto;
+}
+#articles h2{
+    text-align:center;
+}
+#content{
+    border-top:3px;
+
+}
+.post li{
+    padding:5px;
+    list-style-type: none;
+}
+#content-f{
+    border:3px;
+}
+#content-f li{
+  color:#0000FF;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  border-bottom:3px solid #c0c0c0;
+  border-top:3px solid #c0c0c0;
+  padding-bottom:2.6rem;
+  background-color:gray;
+ 
+}
+#content-f p{
+    color:black;
+    background-color:#000099;
+}
+#content-h{
+
+
+  border-bottom:3px solid #c0c0c0;
+  border-top:3px solid #c0c0c0;
+  padding-bottom:2.6rem;
+  background-color:gray;
+}
+#articles-h{
+
+
+  border-bottom:3px solid #c0c0c0;
+  border-top:3px solid #c0c0c0;
+  padding-bottom:2.6rem;
+  background-color:gray;
+}
+#articles-h table{
+
+text-align:center;
+  border-bottom:3px solid #c0c0c0;
+  border-top:3px solid #c0c0c0;
+  padding-bottom:2.6rem;
+  background-color:gray;
+  margin-right:auto;
+  margin-left:auto;
+}
+#articles-h table th{
+    color:#000099;
+}
+#articles-h table tr{
+    background-color:black;
+}
+#articles-h table td{
+    background-color:#000099;
 }
