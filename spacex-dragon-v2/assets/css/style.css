@@ -8,10 +8,10 @@
 }
 .primary li{
     list-style-type: none;
-    color:black;
+    color:white;
 }
 .primary a:link, .primary a:visited{
-    color:black;
+    color:white;
 }
 .primary img{
   display: block;
@@ -54,6 +54,7 @@ display:flex;
 }
 #content{
     border-top:3px;
+    max-width:75%;
 
 }
 .post li{
@@ -62,6 +63,7 @@ display:flex;
 }
 #content-f{
     border:3px;
+    
 }
 #content-f li{
   color:#0000FF;
@@ -75,16 +77,17 @@ display:flex;
  
 }
 #content-f p{
-    color:black;
+    color:#FFFFFF;
     background-color:#000099;
+    max-width:75%;
 }
 #content-h{
-
-
   border-bottom:3px solid #c0c0c0;
   border-top:3px solid #c0c0c0;
   padding-bottom:2.6rem;
   background-color:gray;
+  max-width:75%;
+  text-align:center;
 }
 #articles-h{
 
@@ -93,6 +96,7 @@ display:flex;
   border-top:3px solid #c0c0c0;
   padding-bottom:2.6rem;
   background-color:gray;
+  max-width:75%;
 }
 #articles-h table{
 
